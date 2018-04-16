@@ -127,7 +127,7 @@ export default new Router({
 		},
 	]
 });
-console.log(window.localStorage.bgcolor)
+
 // 页面刷新时，重新赋值token
 if(window.localStorage.getItem('textcolor')) {
 	store.commit('TEXTCOLOR', JSON.parse(window.localStorage.getItem('textcolor')));
